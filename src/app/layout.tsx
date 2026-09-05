@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kai 的小工具箱",
-  description: "抽獎轉盤、番茄鐘、好運抽籤——Kai 的小工具箱",
+  title: "Joe Lo 的小工具箱",
+  description: "抽獎轉盤、番茄鐘、好運抽籤——Joe Lo 的小工具箱",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
