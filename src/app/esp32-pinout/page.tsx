@@ -598,7 +598,7 @@ export default function Esp32PinoutPage() {
 
   return (
     <main
-      className="relative min-h-screen px-4 py-10 text-zinc-800 dark:text-zinc-100"
+      className="relative min-h-screen px-4 py-10 text-zinc-800"
       style={{
         background:
           "radial-gradient(120% 120% at 50% 0%, #ecfdf5 0%, #eff6ff 45%, #ffffff 100%)",
@@ -952,7 +952,7 @@ function PinRow({ label, value }: { label: string; value: string }) {
       <span className="text-xs font-semibold text-zinc-500 dark:text-zinc-400">
         {label}
       </span>
-      <span className="text-zinc-700 dark:text-zinc-200">{value}</span>
+      <span className="text-zinc-700">{value}</span>
     </div>
   );
 }

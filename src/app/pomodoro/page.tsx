@@ -304,7 +304,7 @@ export default function PomodoroPage() {
 
   return (
     <main
-      className="relative min-h-screen px-4 py-10 text-zinc-800 dark:text-zinc-100"
+      className="relative min-h-screen px-4 py-10 text-zinc-800"
       style={{
         background:
           "radial-gradient(120% 120% at 50% 0%, #fef2f2 0%, #fff7ed 45%, #ffffff 100%)",
@@ -377,7 +377,7 @@ export default function PomodoroPage() {
                 r={R}
                 fill="none"
                 stroke="currentColor"
-                className="text-black/[.06] dark:text-white/10"
+                className="text-black/[.06]"
                 strokeWidth={14}
               />
               <circle

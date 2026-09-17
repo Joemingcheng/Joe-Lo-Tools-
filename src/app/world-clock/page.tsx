@@ -193,7 +193,7 @@ export default function WorldClockPage() {
 
   return (
     <main
-      className="relative min-h-screen px-4 py-10 text-zinc-800 dark:text-zinc-100"
+      className="relative min-h-screen px-4 py-10 text-zinc-800"
       style={{
         background:
           "radial-gradient(120% 120% at 50% 0%, #ecfeff 0%, #eef2ff 45%, #ffffff 100%)",
