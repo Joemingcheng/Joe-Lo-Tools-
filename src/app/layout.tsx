@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Joe Lo 的小工具箱",
-  description: "抽獎轉盤、番茄鐘、好運抽籤——Joe Lo 的小工具箱",
+  description: "抽獎轉盤、番茄鐘、好運抽籤、下班倒數計時、世界時鐘、ESP32 規格表——Joe Lo 的小工具箱",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

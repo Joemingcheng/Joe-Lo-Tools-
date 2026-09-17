@@ -41,6 +41,36 @@ const TOOLS: Tool[] = [
     gradient: "from-red-600 to-amber-500",
     ring: "hover:border-amber-400/60 dark:hover:border-amber-400/50",
   },
+  {
+    href: "/off-work",
+    emoji: "🌆",
+    name: "下班倒數計時",
+    tagline: "撐住，快到點了",
+    description:
+      "設定上下班時間，即時倒數距離下班還有多久，時間一到會放煙火、播音效慶祝 10 秒。",
+    gradient: "from-indigo-600 to-orange-500",
+    ring: "hover:border-indigo-400/60 dark:hover:border-indigo-400/50",
+  },
+  {
+    href: "/world-clock",
+    emoji: "🌍",
+    name: "世界時鐘",
+    tagline: "各地時間一目瞭然",
+    description:
+      "預設台灣、美國、英國、捷克、印度、日本六個時區，也能自訂新增任何國家或城市。",
+    gradient: "from-cyan-500 to-indigo-600",
+    ring: "hover:border-cyan-400/60 dark:hover:border-cyan-400/50",
+  },
+  {
+    href: "/esp32-pinout",
+    emoji: "🔌",
+    name: "ESP32 系列規格表",
+    tagline: "選型、接線前先查一下",
+    description:
+      "ESP32、S2、S3、C2、C3、C6、H2 等系列的規格比較與腳位功能對照，含開機檢測、Flash、USB 等注意事項。",
+    gradient: "from-emerald-500 to-teal-600",
+    ring: "hover:border-emerald-400/60 dark:hover:border-emerald-400/50",
+  },
 ];
 
 export default function Home() {
