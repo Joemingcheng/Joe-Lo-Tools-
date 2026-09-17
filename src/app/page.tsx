@@ -77,25 +77,25 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-1 flex-col bg-zinc-50 font-sans dark:bg-black">
       <header className="sticky top-0 z-10 border-b border-black/[.06] bg-zinc-50/80 backdrop-blur dark:border-white/[.08] dark:bg-black/70">
-        <div className="mx-auto flex h-16 w-full max-w-5xl items-center justify-between px-6">
-          <a href="#tools" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-fuchsia-500 text-base">
+        <div className="mx-auto flex h-16 w-full max-w-5xl items-center justify-between gap-3 px-4 sm:px-6">
+          <a href="#tools" className="flex min-w-0 items-center gap-2">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-fuchsia-500 text-base">
               🧰
             </span>
-            <span className="text-base font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+            <span className="truncate whitespace-nowrap text-sm font-bold tracking-tight text-zinc-900 sm:text-base dark:text-zinc-50">
               Joe Lo 的小工具箱
             </span>
           </a>
-          <nav className="flex items-center gap-6 text-sm font-medium text-zinc-600 dark:text-zinc-400">
+          <nav className="flex shrink-0 items-center gap-3 text-xs font-medium text-zinc-600 sm:gap-6 sm:text-sm dark:text-zinc-400">
             <a
               href="#tools"
-              className="transition-colors hover:text-zinc-950 dark:hover:text-zinc-50"
+              className="whitespace-nowrap transition-colors hover:text-zinc-950 dark:hover:text-zinc-50"
             >
               工具一覽
             </a>
             <a
               href="#about"
-              className="transition-colors hover:text-zinc-950 dark:hover:text-zinc-50"
+              className="whitespace-nowrap transition-colors hover:text-zinc-950 dark:hover:text-zinc-50"
             >
               關於
             </a>

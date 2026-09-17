@@ -539,7 +539,12 @@ export default function OffWorkPage() {
 
         <section className="flex flex-col items-center gap-6">
           <div className="relative flex items-center justify-center">
-            <svg width={280} height={280} viewBox="0 0 280 280">
+            <svg
+              width={280}
+              height={280}
+              viewBox="0 0 280 280"
+              style={{ width: "clamp(230px, 68vw, 280px)", height: "auto" }}
+            >
               <circle
                 cx={140}
                 cy={140}

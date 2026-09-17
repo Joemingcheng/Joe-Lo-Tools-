@@ -365,7 +365,12 @@ export default function PomodoroPage() {
         {/* 計時圓環 */}
         <section className="flex flex-col items-center gap-6">
           <div className="relative flex items-center justify-center">
-            <svg width={280} height={280} viewBox="0 0 280 280">
+            <svg
+              width={280}
+              height={280}
+              viewBox="0 0 280 280"
+              style={{ width: "clamp(200px, 64vw, 280px)", height: "auto" }}
+            >
               <circle
                 cx={140}
                 cy={140}
@@ -390,7 +395,7 @@ export default function PomodoroPage() {
               />
             </svg>
             <div className="absolute flex flex-col items-center gap-1">
-              <span className="text-5xl font-black tabular-nums tracking-tight">
+              <span className="text-4xl font-black tabular-nums tracking-tight sm:text-5xl">
                 {formatTime(secondsLeft)}
               </span>
               <span className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
